@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.customer-text {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 40px;
+  text-align: center;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-img{
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 200px;
+  width: 180px;
+}
+
+body {
+  background-image: url("/Images/customer-detail.jpg");
+  background-size: cover;
+}
+
+.customer-table {
+  width: 90vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 60px;
+}
+
+.table-heading,
+th {
+  background-color: rgba(0, 128, 130, 0.7);
+  border: 2px solid black;
+  font-size: 20px;
+  color: white;
+}
+
+tr,
+td {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+}
