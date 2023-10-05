@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer</title>
+    <link rel="stylesheet" href="/CSS/Customers/add-customer.css" />
+  </head>
+  <body>
+    <div class="bg-image-container">
+      <div class="container">
+        <form class="add-customer-form">
+          <div class="image-container">
+            <img src="/Images/customer-service.png" class="customer-img" />
+          </div>
+          <h1 class="add-customer-heading">Add Customer!</h1>
+
+          <input
+            type="text"
+            class="name box"
+            id="customerName"
+            placeholder="Name"
+            required
+          />
+
+          <input
+            type="text"
+            class="provience box"
+            id="province"
+            placeholder="Province"
+            required
+          />
+          <br />
+
+          <input
+            type="text"
+            class="city box"
+            id="city"
+            placeholder="City"
+            required
+          />
+
+          <input
+            type="text"
+            class="municipality box"
+            id="municipality"
+            placeholder="Municipality"
+            required
+          />
+          <br />
+
+          <input
+            type="text"
+            class="addressLine box"
+            id="address"
+            placeholder="Address Line"
+            required
+          />
+
+          <input
+            type="number"
+            class="wardNo box"
+            id="wardNo"
+            placeholder="Ward No"
+            required
+          />
+          <br />
+
+          <input
+            type="tel"
+            class="mobileNumber box"
+            id="mobileNo"
+            placeholder="Mobile Number"
+            required
+          />
+
+          <input
+            type="email"
+            class="email box"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <br />
+
+          <div class="button-cointainer">
+            <button type="button" class="back-btn">
+              <a href="customerView.html">
+                <p class="button-text">Back</p>
+              </a>
+            </button>
+
+            <button type="button" class="add-customer-text" id="btn-AddCustomer">
+              <p class="button-text">Add Customer</p>
+            </button>
+          </div>
+        </form>
+        <br />
+      </div>
+    </div>
+    <script src="/js/Customers/customeradd.js"></script>
+  </body>
+</html>

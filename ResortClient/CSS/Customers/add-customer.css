@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-image-container{
+    background-image: url("/Images/add-customer.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.customer-img {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 200px;
+  width: 120px;
+}
+
+.add-customer-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-customer-form {
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 500px;
+  height: 460px;
+  padding: 40px;
+  margin-top: 80px;
+}
+
+.box {
+  margin: 5px;
+  padding-left: 15px;
+  border-radius: 10px;
+  width: 15vw;
+  height: 4vh;
+  border: 2px solid black;
+  display: inline-block;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.add-customer-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.add-customer-text, .back-btn {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 190px;
+  height: 40px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.button-text {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+

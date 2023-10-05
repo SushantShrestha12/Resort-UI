@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/Login_&_SignUp_Page/Signup.css" />
+    <script
+      src="https://kit.fontawesome.com/8a1be6ca00.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sign Up Page</title>
+  </head>
+  <body>
+    <div class="signup">
+      <i class="fas fa-user-circle"></i>
+      <h1 class="heading">Sign Up!</h1>
+      <form action="">
+        <input
+          class="user-box"
+          id="username"
+          type="text"
+          placeholder=" Username"
+          required
+        />
+
+        <input
+          class="box1"
+          id="phoneNumber"
+          type="tel"
+          placeholder=" Phone No."
+          required
+        />
+
+        <input
+          class="box2"
+          id="email"
+          type="email"
+          placeholder=" Email"
+          required
+        />
+        <br />
+
+        <input
+          class="box1"
+          id="password"
+          type="password"
+          placeholder=" Password"
+          required
+        />
+
+        <input
+          class="box2"
+          id="confirmPassword"
+          type="password"
+          placeholder=" Confirm Password"
+          required
+        />
+        <br />
+
+        <input type="checkbox" class="c_box" required />
+        <label class="tnc"
+          >I agree to the <a href="#">terms and condition</a>
+        </label>
+
+        <button class="signup_btn" id="signup_btn" type="button">Sign Up</button>
+      </form>
+
+      <label class="acc">Already have an account?</label>
+
+      <a href="/HTML/Login_&_SignUp_Page/Login.html">
+        <button class="login_btn" type="button">Login</button>
+      </a>
+    </div>
+    <script src="/js/SignUp/SignUp.js"></script>
+  </body>
+</html>

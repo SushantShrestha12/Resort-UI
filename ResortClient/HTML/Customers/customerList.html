@@ -4,71 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>List Of Customers</title>
-    <link rel="stylesheet" href="/CSS/customerList.css">
+    <link rel="stylesheet" href="/CSS/Customers/customerList.css" />
   </head>
   <body>
-    <h1 class="customer-text">All Customers Details</h1>
+    <div class="container-wrapper">
+      <h1 class="customer-text">All Customers Details</h1>
 
-    <div class="image-container">
-      <img src="/Images/customer-service.png" class="glass-img">
+      <div class="image-container">
+        <img src="/Images/customer-service.png" class="glass-img" />
+      </div>
+
+      <table id="customerTable">
+        <tr class="table-heading">
+          <th>Name</th>
+          <th>Provience</th>
+          <th>City</th>
+          <th>Municipality</th>
+          <th>Address Line</th>
+          <th>Ward No</th>
+          <th>Mobile Number</th>
+          <th>Email</th>
+        </tr>
+
+        <tbody>
+
+        </tbody>
+        <br />
+      </table>
+
+      <div class="button-container">
+        <button class="back-btn">
+          <a href="customerView.html">
+            <p class="button-text">Back</p>
+          </a>
+        </button>
+      </div>
     </div>
-
-    <table class="customer-table">
-      <tr class="table-heading">
-        <th>Name</th>
-        <th>Provience</th>
-        <th>City</th>
-        <th>Municipality</th>
-        <th>Address Line</th>
-        <th>Ward No</th>
-        <th>Mobile Number</th>
-        <th>Email</th>
-      </tr>
-
-      <tr> 
-        <td>Sushant Shrestha</td>
-        <td>Bagmati</td>
-        <td>Lalitpur</td>
-        <td>Lalitpur</td>
-        <td>Gwarko</td>
-        <td>6</td>
-        <td>9866085080</td>
-        <td>sthasushant1@gmail.com</td>
-      </tr>
-
-      <tr>
-        <td>Suraj Shrestha</td>
-        <td>Bagmati</td>
-        <td>Lalitpur</td>
-        <td>Lalitpur</td>
-        <td>Talchikhel</td>
-        <td>3</td>
-        <td>9800000000</td>
-        <td>suraj@gmail.com</td>
-      </tr>
-
-      <tr>
-        <td>Gunjan Shrestha</td>
-        <td>Bagmati</td>
-        <td>Lalitpur</td>
-        <td>Lalitpur</td>
-        <td>Talchikhel</td>
-        <td>3</td>
-        <td>9811111111</td>
-        <td>gunjan@gmail.com</td>
-      </tr>
-
-      <tr>
-        <td>Wilson Shrestha</td>
-        <td>Bagmati</td>
-        <td>Bhaktapur</td>
-        <td>Bhaktapur</td>
-        <td>Somewhere</td>
-        <td>21</td>
-        <td>9822222222</td>
-        <td>wilson@gmail.com</td>
-      </tr> <br>
-
-    </table>
+    <script src="/js/Customers/customerListFetch.js"></script>
   </body>
 </html>
