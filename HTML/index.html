@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/Customers/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js" integrity="sha512-64O4TSvYybbO2u06YzKDmZfLj/Tcr9+oorWhxzE3yDnmBRf7wvDgQweCzUf5pm2xYTgHMMyk5tW8kWU92JENng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+
+  <body>
+    <div class="container-wrapper">
+
+      <button class="logout" id="logout">
+        <i class="fa-solid fa-power-off"></i>
+        Logout
+      </button>
+
+      <div class="container">
+        <a href="/HTML/Customers/customerView.html">
+          <button class="customer">
+            <img src="/Images/headphone.png" class="headphone" />
+            <p class="customerText">Customer</p>
+          </button>
+        </a>
+
+        <a href="/HTML/Firm/firmDetails.html">
+          <button class="firm">
+            <img src="/Images/hotel.png" class="firmImg" />
+            <p class="firmText">Firm</p>
+          </button>
+        </a>
+
+        <a href="/HTML/Orders/order.html">
+          <button class="order">
+            <img src="/Images/order-delivery.png" class="orderImg" />
+            <p class="orderText">Order</p>
+          </button>
+        </a>
+
+        <a href="/HTML/Uploads/upload.html">
+          <button class="upload">
+            <img src="/Images/cloud.png" class="uploadImg" />
+            <p class="uploadText">Upload</p>
+          </button>
+        </a>
+      </div>
+    </div>
+    <script src="/js/Logout/logout.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

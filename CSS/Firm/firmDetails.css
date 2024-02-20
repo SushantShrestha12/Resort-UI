@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .firm-heading {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 128, 130, 0.7);
+  }
+  
+  .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .firm-image{
+    width: 180px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 100px;
+  }
+  
+  .container-wrapper {
+    height: 100vh;
+    position: relative;
+    background-image: url("/Images/firm.jpg");
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 60px;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .table-heading,
+  th {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 30px;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+  }
+  
+  tr,
+  td {
+    width: 200px;
+    text-align: center;
+    padding: 7px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .view-button, .back-btn {
+    margin: 10px;
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .button-text {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
